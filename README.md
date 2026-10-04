@@ -1,7 +1,7 @@
 # Kavro App Conceptual Design
 
-- Conceptual design of application addition to existing e-bike interfaces.
-- Kavro is a helmet addition to e-bikes, which provides the option for increased safety at no extra cost.
+Kavro is a helmet addition to e-bikes, which provides the option for increased safety at no extra cost. This repository therefore documents the conceptual design of an application addition to existing e-bike interfaces.
+
 - Kavro takes a safety-centric approach to the global rise in e-bike use with its simple add-on to existent e-bike apps (such as Lime, Voi etc.).
 - Upon use of Kavro, the ride only stops post reattachment and locking of the helmet.
 
