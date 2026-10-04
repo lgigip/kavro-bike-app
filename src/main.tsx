@@ -198,11 +198,11 @@ function App() {
           <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4 flex justify-between text-sm">
             <div className="text-center">
               <p className="text-gray-400">Unlock</p>
-              <p className="text-white font-bold">$1.00</p>
+              <p className="text-white font-bold">£1.00</p>
             </div>
             <div className="text-center">
               <p className="text-gray-400">Per min</p>
-              <p className="text-white font-bold">$0.25</p>
+              <p className="text-white font-bold">£0.25</p>
             </div>
             <div className="text-center">
               <p className="text-gray-400">Range</p>
@@ -274,7 +274,7 @@ function App() {
           <div className="w-full bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col items-center gap-2">
             <p className="text-gray-400 text-sm uppercase tracking-widest">Ride time</p>
             <p className="text-5xl font-black text-white tabular-nums">{formatTime(rideTime)}</p>
-            <p className="font-bold text-xl" style={{ color: G }}>${cost}</p>
+            <p className="font-bold text-xl" style={{ color: G }}>£{cost}</p>
           </div>
 
           <div className="w-full bg-gray-900 border border-gray-800 rounded-2xl p-4 flex items-center justify-between">
@@ -416,7 +416,7 @@ function App() {
             </div>
             <div className="border-t border-gray-800 pt-3 flex justify-between">
               <span className="text-gray-400 text-sm">Total</span>
-              <span className="font-black text-lg" style={{ color: G }}>${cost}</span>
+              <span className="font-black text-lg" style={{ color: G }}>£{cost}</span>
             </div>
           </div>
 
